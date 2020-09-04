@@ -11,7 +11,7 @@ public class HomeController {
         // to oznacza, że mamy ścieżkę localhost:8080-> następnie wywołaj metodę home
         @GetMapping("/")
         public String home(ModelMap map){
-            map.put("name", "Bartek");
+            map.put("name", "Bartek Nosowski");
             // w html widoczna jest zmienna
             // name
             return "hi";
